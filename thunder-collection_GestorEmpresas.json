@@ -1,0 +1,307 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "GestorEmpresas",
+    "dateExported": "2024-03-02T00:37:14.484Z",
+    "version": "1.1",
+    "folders": [
+        {
+            "_id": "c57f2f2e-beb1-418c-aa7b-f3c1a0439bbf",
+            "name": "Admin",
+            "containerId": "",
+            "created": "2024-02-27T23:12:25.077Z",
+            "sortNum": 10000
+        },
+        {
+            "_id": "4d35a0e0-f8a8-4290-9331-2aa0c2da0fe4",
+            "name": "Category",
+            "containerId": "",
+            "created": "2024-02-28T02:51:48.913Z",
+            "sortNum": 30000
+        },
+        {
+            "_id": "5e887e09-d535-45e9-b4fb-7843704ee856",
+            "name": "Company",
+            "containerId": "",
+            "created": "2024-02-28T03:44:14.845Z",
+            "sortNum": 40000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "168f6d2e-d033-4f33-82b0-2c7b212da140",
+            "colId": "59844828-00e9-4300-bc2d-806e32fdd37c",
+            "containerId": "c57f2f2e-beb1-418c-aa7b-f3c1a0439bbf",
+            "name": "test",
+            "url": "test",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-02-27T23:13:39.685Z",
+            "modified": "2024-02-29T22:55:03.743Z",
+            "headers": [
+                {
+                    "name": "authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWRmYjg2ZGY2NTU3ODI3MDExYWEyMTMiLCJ1c2VybmFtZSI6ImNhcm1hcyIsIm5hbWUiOiJDYXJsb3MiLCJyb2xlIjoiQURNSU4iLCJpYXQiOjE3MDkyNDcyOTQsImV4cCI6MTcwOTI1ODA5NH0.HFJ04YiB3AtFGgp2Ve_eKK4B62JoFNZ39zxb6J6nLtU"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "e4322ea8-f1ab-438a-bb24-8ce71bd9adb6",
+            "colId": "59844828-00e9-4300-bc2d-806e32fdd37c",
+            "containerId": "c57f2f2e-beb1-418c-aa7b-f3c1a0439bbf",
+            "name": "Register",
+            "url": "registerAdmin",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2024-02-27T23:17:13.355Z",
+            "modified": "2024-02-29T14:54:57.660Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Patron"
+                    },
+                    {
+                        "name": "surname",
+                        "value": "García"
+                    },
+                    {
+                        "name": "username",
+                        "value": "Patron"
+                    },
+                    {
+                        "name": "password",
+                        "value": "12345678"
+                    },
+                    {
+                        "name": "email",
+                        "value": "garcia12@gmail.com"
+                    },
+                    {
+                        "name": "phone",
+                        "value": "12345678"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "ea104ba9-782e-465c-92bd-6819fc2fb1fc",
+            "colId": "59844828-00e9-4300-bc2d-806e32fdd37c",
+            "containerId": "c57f2f2e-beb1-418c-aa7b-f3c1a0439bbf",
+            "name": "login",
+            "url": "login",
+            "method": "POST",
+            "sortNum": 50000,
+            "created": "2024-02-28T00:54:55.489Z",
+            "modified": "2024-02-29T19:50:03.297Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "username",
+                        "value": "carmas"
+                    },
+                    {
+                        "name": "password",
+                        "value": "12345678"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "d8d4d702-a6a7-4496-ab70-75503a382a30",
+            "colId": "59844828-00e9-4300-bc2d-806e32fdd37c",
+            "containerId": "4d35a0e0-f8a8-4290-9331-2aa0c2da0fe4",
+            "name": "Add",
+            "url": "addCategory",
+            "method": "POST",
+            "sortNum": 100000,
+            "created": "2024-02-28T02:51:55.468Z",
+            "modified": "2024-02-29T22:55:23.485Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWRmYjg2ZGY2NTU3ODI3MDExYWEyMTMiLCJ1c2VybmFtZSI6ImNhcm1hcyIsIm5hbWUiOiJDYXJsb3MiLCJyb2xlIjoiQURNSU4iLCJpYXQiOjE3MDkyNDcyOTQsImV4cCI6MTcwOTI1ODA5NH0.HFJ04YiB3AtFGgp2Ve_eKK4B62JoFNZ39zxb6J6nLtU"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Servicios financieros"
+                    },
+                    {
+                        "name": "description",
+                        "value": "Comprenden un conjunto de actividades y productos relacionados con la gestión del dinero y los recursos financieros"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "476c6667-3820-4dd0-bb7c-b1d0f799623a",
+            "colId": "59844828-00e9-4300-bc2d-806e32fdd37c",
+            "containerId": "5e887e09-d535-45e9-b4fb-7843704ee856",
+            "name": "Register",
+            "url": "add",
+            "method": "POST",
+            "sortNum": 120000,
+            "created": "2024-02-28T04:08:50.685Z",
+            "modified": "2024-02-29T22:55:39.038Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWRmYjg2ZGY2NTU3ODI3MDExYWEyMTMiLCJ1c2VybmFtZSI6ImNhcm1hcyIsIm5hbWUiOiJDYXJsb3MiLCJyb2xlIjoiQURNSU4iLCJpYXQiOjE3MDkyNDcyOTQsImV4cCI6MTcwOTI1ODA5NH0.HFJ04YiB3AtFGgp2Ve_eKK4B62JoFNZ39zxb6J6nLtU"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Zapatos"
+                    },
+                    {
+                        "name": "industry",
+                        "value": "Servicios"
+                    },
+                    {
+                        "name": "address",
+                        "value": "Calle Principal"
+                    },
+                    {
+                        "name": "phone",
+                        "value": "12345678"
+                    },
+                    {
+                        "name": "email",
+                        "value": "Zapatos@gmail.com"
+                    },
+                    {
+                        "name": "registeredby",
+                        "value": "65dfcd8237f45359ebd7f0e9"
+                    },
+                    {
+                        "name": "impactLevel",
+                        "value": "Medio"
+                    },
+                    {
+                        "name": "yearsInBusiness",
+                        "value": "2"
+                    },
+                    {
+                        "name": "businessCategory",
+                        "value": "65dfc57ee97dc9707d29488f"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "cf96be8f-ffad-4215-9db9-4633b0e5f81f",
+            "colId": "59844828-00e9-4300-bc2d-806e32fdd37c",
+            "containerId": "5e887e09-d535-45e9-b4fb-7843704ee856",
+            "name": "GetAllAZ",
+            "url": "getAllCompaniesAZ",
+            "method": "GET",
+            "sortNum": 140000,
+            "created": "2024-02-28T04:46:27.055Z",
+            "modified": "2024-03-02T00:36:33.113Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWRmYjg2ZGY2NTU3ODI3MDExYWEyMTMiLCJ1c2VybmFtZSI6ImNhcm1hcyIsIm5hbWUiOiJDYXJsb3MiLCJyb2xlIjoiQURNSU4iLCJpYXQiOjE3MDkzMzk3MzMsImV4cCI6MTcwOTM1MDUzM30.mDmdcj2OIsR67aix9MA-2A8RZirkaMg9M1--XT-Kaws"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "938f75a9-b75a-450e-8819-01841e6f4df9",
+            "colId": "59844828-00e9-4300-bc2d-806e32fdd37c",
+            "containerId": "5e887e09-d535-45e9-b4fb-7843704ee856",
+            "name": "GetAllZA",
+            "url": "getAllCompaniesZA",
+            "method": "GET",
+            "sortNum": 150000,
+            "created": "2024-02-29T18:59:54.540Z",
+            "modified": "2024-03-02T00:36:59.491Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWRmYjg2ZGY2NTU3ODI3MDExYWEyMTMiLCJ1c2VybmFtZSI6ImNhcm1hcyIsIm5hbWUiOiJDYXJsb3MiLCJyb2xlIjoiQURNSU4iLCJpYXQiOjE3MDkzMzk3MzMsImV4cCI6MTcwOTM1MDUzM30.mDmdcj2OIsR67aix9MA-2A8RZirkaMg9M1--XT-Kaws"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "7ca3361d-6fea-4cd5-b252-001d3da4d86f",
+            "colId": "59844828-00e9-4300-bc2d-806e32fdd37c",
+            "containerId": "5e887e09-d535-45e9-b4fb-7843704ee856",
+            "name": "Update",
+            "url": "updateCompany/65dfcb0b20b4f04f1ce581bb",
+            "method": "PUT",
+            "sortNum": 160000,
+            "created": "2024-02-28T05:18:05.084Z",
+            "modified": "2024-02-29T23:45:08.816Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWRmYjg2ZGY2NTU3ODI3MDExYWEyMTMiLCJ1c2VybmFtZSI6ImNhcm1hcyIsIm5hbWUiOiJDYXJsb3MiLCJyb2xlIjoiQURNSU4iLCJpYXQiOjE3MDkyNTAyNjIsImV4cCI6MTcwOTI2MTA2Mn0.sTcQjtCqQb1E-WYA75o_LgGTbnA9r4v5uvY2wF3qMmQ"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "businessCategory",
+                        "value": "65dfc57ee97dc9707d29488f"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "a3ec9825-80fe-4c17-9bd5-8503d4814e14",
+            "colId": "59844828-00e9-4300-bc2d-806e32fdd37c",
+            "containerId": "5e887e09-d535-45e9-b4fb-7843704ee856",
+            "name": "Excel",
+            "url": "generateExcelReport",
+            "method": "GET",
+            "sortNum": 170000,
+            "created": "2024-02-28T05:35:11.201Z",
+            "modified": "2024-03-02T00:35:39.373Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWRmYjg2ZGY2NTU3ODI3MDExYWEyMTMiLCJ1c2VybmFtZSI6ImNhcm1hcyIsIm5hbWUiOiJDYXJsb3MiLCJyb2xlIjoiQURNSU4iLCJpYXQiOjE3MDkzMzk3MzMsImV4cCI6MTcwOTM1MDUzM30.mDmdcj2OIsR67aix9MA-2A8RZirkaMg9M1--XT-Kaws"
+                }
+            ],
+            "params": [],
+            "tests": []
+        }
+    ],
+    "settings": {
+        "options": {
+            "baseUrl": "localhost:2656/"
+        }
+    }
+}
